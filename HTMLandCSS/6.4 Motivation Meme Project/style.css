@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+
+.poster img {
+    width: 50%;
+    height: 750px;
+    margin-left: 25%;
+    
+}

@@ -1,0 +1,13 @@
+.huge {
+  font-size: 5rem;
+  color: red;
+  font-weight: bold;
+}
+
+
+.btnBig {
+  background-color: yellow;
+  border-radius: 15%;
+  width: 6rem;
+  height: 2rem;
+}

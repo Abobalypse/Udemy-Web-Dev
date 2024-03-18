@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Size Grid</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-rows: 250px minmax(250px, 500px);
+      grid-template-columns: 250px auto;
+    }
+
+    .grid-item1, .grid-item2, .grid-item3, .grid-item4 {
+      font-size: 3rem;
+      background-color: darkviolet;
+      border: 1px solid goldenrod;
+      color: rgb(252, 236, 23);
+    }
+
+    .grid-item1 {
+      font-size: medium;
+    }
+
+    .astonMartin {
+      font-size: 24px;
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Auto Size Grid</h1>
+  <div class="grid-container">
+    <div class="grid-item1">Team Names: <br/>
+      <span class="astonMartin">Aston Martin</span><br/>
+      Ferrari<br/>
+      BMW<br/>
+    </div>
+    <div class="grid-item2">2</div>
+    <div class="grid-item3">3</div>
+    <div class="grid-item4">4</div>
+  </div>
+</body>
+
+</html>
